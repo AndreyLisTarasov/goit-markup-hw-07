@@ -6,7 +6,7 @@
 .feature-list__item{
     width: 270px;
 }
-.feature-list__icon{    
+.feature-list__wrapper{    
     @extend %align;
     height: 120px;
     margin-bottom: 30px;

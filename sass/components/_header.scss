@@ -1,5 +1,5 @@
 .header{
-    border-bottom: 1px solid transparent;
+    border-bottom: 1px solid #ECECEC;
 }
 .header .container{
     display: flex;
@@ -9,12 +9,12 @@
     display: flex;
     align-items: center;
 }
-.menu{
+.nav-menu{
     display: flex;
     margin-left: 100px;
     gap: 50px;
 }
-.menu__link{
+.nav-menu__link{
     position: relative;
     display: block;
     padding-top: 32px;
@@ -33,10 +33,10 @@
         color: var(--main-link-color);
     }     
 }  
-.menu__link_current{
+.nav-menu__link_current{
     color: var(--main-link-color);
 }
-.menu__link_current::after{
+.nav-menu__link_current::after{
     position: absolute;
     content: '';
     display: block;
@@ -47,17 +47,17 @@
     border-radius: 2px;
     background-color: #2196F3;
 }
-.contact{
+.contact-list{
     display: flex;
     align-items: center;
     margin-left: auto;
     gap: 50px;
 }
-.contact__icon{
+.contact-list__icon{
     margin-right: 10px;
     fill: currentColor;
 }
-.contact__link{
+.contact-list__link{
     display: inline-flex;
     align-items: center;
     padding-top: 32px;
